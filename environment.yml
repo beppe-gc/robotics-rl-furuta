@@ -1,0 +1,27 @@
+name: furuta-rl
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - numpy
+  - casadi=3.7.0
+  - meshcat-python
+  - example-robot-data
+  - jupyter
+  - ipywidgets
+  - matplotlib
+  - pandas
+  - pinocchio
+  - pip
+  - pip:
+      - gymnasium
+      - torch
+      - stable-baselines3
+      - sb3-contrib
+      - wandb
+      - jupyterlab-git
+      - rockit-meco
+      - tyro
+      - tensorboard
+      

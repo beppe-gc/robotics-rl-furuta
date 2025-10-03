@@ -1,0 +1,33 @@
+urdf_filename: "NEW_furuta_pendulum_Q4.urdf"
+forward_dynamics_casadi_filename: "NEW_forward_dynamics_Q4.casadi"
+
+parameters_model:
+  m1: 0.040466
+  m2: 0.009801
+  m3: 0.009801              # Mass of the new link
+
+  l1: 0.05415
+  l2: 0.096608
+  l3: 0.096608                # COM of new link 
+
+  L1: 0.093525
+  L2: 0.129
+  L3: 0.129                  # Length of new link 
+
+  J1: 5.96237099e-04
+  J2: 0.000014790595
+  J3: 0.000014790595           # Inertia of new link 
+
+  b1: 1.16511498e-02
+  b2: 1.7905703040590617e-05
+  b3: 1.7905703040590617e-05  # Damping for Q4 (OK; value copied from b2)
+
+  max_velocity_joint0: 22.0
+  max_velocity_joint1: 50.0
+  max_velocity_joint2: 50.0   
+
+  max_angle_joint0: 6.283185307179586
+  max_angle_joint1: 6.283185307179586
+  max_angle_joint2: 3.141592653589793
+
+  max_torque_joint0: 0.2      
