@@ -6,7 +6,7 @@ jupyter
 ipywidgets
 
 # Robotics and dynamics
-pinocchio==3.4.0
+pinocchio
 casadi==3.7.0
 example-robot-data
 meshcat
