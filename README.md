@@ -15,6 +15,22 @@ This project was developed as a group project for the KU Leuven Robotics course 
 - `docs/` – original project description  
 - `data/` – learned models and training tensorboards  
 
+## Requirements
+
+This project was developed and tested using **Anaconda/Miniconda** on Python 3.13.  
+The recommended way to install dependencies is from the provided `environment.yml`:
+
+```bash
+conda env create -f environment.yml
+conda activate furuta-rl
+```
+
+Alternatively a `requirements.txt` is included for pip users:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Setup
 Clone the repo and install dependencies:
 
@@ -33,7 +49,7 @@ Launch JupyterLab:
 jupyter lab
 ```
 
-Run all cells in the Robotics_RL_FurutaPendulum.ipynb notebook sequentially to visualise the results.
+Run all cells in the `Robotics_RL_FurutaPendulum.ipynb` notebook sequentially to visualise the results.
 
 ## License
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
