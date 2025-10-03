@@ -15,24 +15,11 @@ This project was developed as a group project for the KU Leuven Robotics course 
 - `docs/` – original project description  
 - `data/` – learned models and training tensorboards  
 
-## Requirements
 
-This project was developed and tested using **Anaconda/Miniconda** on Python 3.13.  
-The recommended way to install dependencies is from the provided `environment.yml`:
-
-```bash
-conda env create -f environment.yml
-conda activate furuta-rl
-```
-
-Alternatively a `requirements.txt` is included for pip users:
-
-```bash
-pip install -r requirements.txt
-```
 
 ## Setup
-Clone the repo and install dependencies:
+Clone the repo and install dependencies. This project was developed and tested using **Anaconda/Miniconda** on Python 3.13.  
+All dependencies can be installed with the provided `environment.yml` file:
 
 ```bash
 git clone https://github.com/beppe-gc/robotics-rl-furuta.git
@@ -40,6 +27,7 @@ cd robotics-rl-furuta
 conda env create -f environment.yml
 conda activate furuta-rl
 ```
+Note: There is no `requirements.txt` because several dependencies (`meshcat-python`, `example-robot-data`, `pinocchio`) are only available on conda-forge
 
 ## Usage
 

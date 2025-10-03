@@ -5,11 +5,9 @@ matplotlib
 jupyter
 ipywidgets
 
-# Robotics and dynamics
-pinocchio
+# Robotics and dynamics (only pip-available)
+pinocchio==3.4.0
 casadi==3.7.0
-example-robot-data
-meshcat-python
 rockit-meco
 
 # Reinforcement Learning
