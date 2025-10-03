@@ -23,6 +23,7 @@ git clone https://github.com/beppe-gc/robotics-rl-furuta.git
 cd robotics-rl-project
 conda env create -f environment.yml
 conda activate furuta-rl
+```
 
 ## Usage
 
@@ -30,5 +31,5 @@ Launch JupyterLab:
 
 ```bash
 jupyter lab
-
+```
 
