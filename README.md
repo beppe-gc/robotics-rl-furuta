@@ -20,7 +20,7 @@ Clone the repo and install dependencies:
 
 ```bash
 git clone https://github.com/beppe-gc/robotics-rl-furuta.git
-cd robotics-rl-project
+cd robotics-rl-furuta
 conda env create -f environment.yml
 conda activate furuta-rl
 ```
@@ -33,3 +33,7 @@ Launch JupyterLab:
 jupyter lab
 ```
 
+Run all cells in the Robotics_RL_FurutaPendulum.ipynb notebook sequentially to visualise the results.
+
+## License
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
