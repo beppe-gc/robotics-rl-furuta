@@ -33,11 +33,8 @@ conda env create -f environment.yml
 conda activate furuta-rl
 ```
 
-Alternatively a `requirements.txt` is included for pip users:
-
-```bash
-pip install -r requirements.txt
-```
+Note: The `pinocchio.casadi` module is only available in the `conda-forge` build of Pinocchio.
+For full functionality, install via the provided `environment.yml` (do not use pip).
 
 ## Usage
 
